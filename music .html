@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AGAM Band</title>
+  <style>
+    html {
+  scroll-behavior: smooth;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+.logo {
+  color: orange;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background:url("maxresdefault.jpg") no-repeat center center/cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* Sections */
+.section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+/* Flex layout */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.text {
+  width: 80%;
+  font-size: 16px;
+  text-align: left;
+}
+
+.image {
+  width: 40%;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Grid */
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+   padding: 10px;
+}
+ 
+/* Responsive */
+@media(max-width:768px){
+  .flex {
+    flex-direction: column;
+  }
+
+  .text, .image {
+    width: 100%;
+  }
+}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <p class="logo">AGAM</p>
+
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#instruments">Instruments</a></li>
+    <li><a href="#concerts">Concerts</a></li>
+    <li><a href="#awards">Awards</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
+  <h2>Where Ragas Meet Rock</h2>
+</header>
+
+<!-- About Section -->
+<section id="about" class="section flex">
+  <div class="text">
+    <h2>About Agam</h2>
+    <br><br>
+    <p>
+     <span style ="color:red"><b>Agam</b></span> is a Bangalore-based music band known for blending traditional Indian Carnatic music with modern rock.Formed in the early 2000s, the band creates a unique 
+    sound by combining classical ragas with instruments like electric guitar, drums, and keyboards. Led by vocalist Harish Sivaramakrishnan,<span style ="color:red"><b>Agam</b></span> has gained popularity for its energetic performances and innovative fusion style, making it one of India’s leading contemporary music bands.
+    </p>
+    <br><br>
+    <p>
+    <span style ="color:red"><b>Agam</b></span> is known for bringing a fresh approach to Indian music by mixing traditional melodies with modern sounds. The band focuses on preserving the beauty of classical music while making it more accessible to today’s audience through instruments like electric guitar and drums. Their songs are rich in musical detail and reflect both cultural depth and contemporary style, which makes them stand out in the Indian music scene.
+    </p>
+    <br><br>
+    <span style ="color:red"><b>Agam</b></span> has become one of India’s leading fusion bands by successfully bridging the gap between classical tradition and modern music. Their compositions often draw from ancient Carnatic kritis and present them with a contemporary twist using instruments like electric guitar, violin, and drums. What sets <span style ="color:red"><b>Agam</b></span> apart is their ability to maintain the purity of classical music while making it engaging for modern listeners. With a growing fan base and performances at major events, the band continues to inspire a new generation of music lovers through its innovative and soulful sound.
+    </p>
+     </div>
+  <div class="image">
+    <img src="Agam1.jpg" alt="Agam Band">
+  </div>
+</section>
+
+<!-- Instruments -->
+<section id="instruments" class="section">
+  <h2>Instruments Used</h2><br><br>
+     <div class="grid">
+    <div class="card">
+      <img src="guitar.webp" alt="guitar">
+      <p>Electric Guitar</p>
+    </div>
+    <div class="card">
+      <img src="drums.webp" alt="Drums">
+      <p>Drums</p>
+    </div>
+    <div class="card">
+      <img src="voilin.jpg" alt="voilin">
+      <p>Violin</p>
+    </div>
+    <div class="card">
+      <img src="piano.jpg" alt="keyboard">
+      <p>Keyboard</p>
+    </div>
+  </div>
+</section>
+
+<!-- Concerts -->
+<section id="concerts" class="section flex reverse">
+  <div class="image">
+    <img src="DSC00651.avif" alt="Concert">
+  </div>
+  <div class="text">
+    <h2>Live Concerts</h2>
+    <br><br>
+    <p>
+     <span style ="color:red"><b>Agam's</b></span> live performances are known for their rich musical experience and strong stage presence. Each concert is carefully crafted to take the audience on a journey through classical ragas and modern rock sounds. The band members interact with the audience, creating an engaging and immersive atmosphere that keeps listeners connected throughout the show.
+    </p>
+    <br><br>
+    <p>
+      One of the highlights of <span style ="color:red"><b>Agam's</b></span> concerts is the seamless coordination between instruments, especially the electric guitar, violin, and percussion. The guitar adds a powerful modern edge to the traditional compositions, making the performance both dynamic and energetic. Their concerts often include improvisations, which make every show unique and special.
+    </p>
+    <br><br>
+    <p>
+        <span style ="color:red"><b>Agam</b></span> has performed at various prestigious venues, college festivals, and cultural events across India. Their ability to present classical music in a contemporary format has helped them reach a wider audience. The combination of visual stage presence, lighting, and high-quality sound makes their concerts memorable and impactful.
+    </p>
+  </div>
+</section>
+
+<!-- Awards -->
+<section id="awards" class="section">
+  <h2>Awards & Recognition</h2>
+<span style="color:rgb(3, 170, 247)">1. 🥇 2007 – Won Ooh La La La</span><br>
+<span style="color:rgb(247, 3, 247)">→</span> This was their first major recognition and helped them gain popularity.<br><br>
+
+<span style="color:rgb(3, 170, 247)">2. 🌍 2012 – Won at Bite My Music Global Awards </span><br>
+<span style="color:rgb(247, 3, 247)">→ </span>
+<span style="color:rgb(247, 3, 186)">Awards received:</span><br>
+Best Collaboration<br>
+Best Instrumental<br><br>
+
+<span style="color:rgb(3, 170, 247)">3. ⭐ 2013 – Named MTV Indies Push Artist of the Year</span><br>
+<span style="color:rgb(247, 3, 247)">→ </span>Recognized as a leading independent music band in India.<br><br>
+
+<span style="color:rgb(3, 170, 247)">4. 🎤 Later Years</span><br>
+<span style="color:rgb(247, 3, 247)">→ </span>Performed at major concerts, cultural festivals, and gained a strong fan following across India.<br><br>
+<footer>
+  <p>© 2026 AGAM Fan Website</p>
+</footer>
+</body>
+</html>
